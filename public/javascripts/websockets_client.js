@@ -1,15 +1,14 @@
 $(document).ready(function() {
     //Listners
     $('.field').click(function(event){
-        socket.send('setDot' + JSON.stringify$(this).attr("id"));
+        socket.send('setDot' + JSON.stringify($(this).attr("id")));
         return false;
     })
     
     var index = $('#index').text();
-    console.log("Spieleindex:" + index);
     var socket = new WebSocket('ws://localhost:9000/ws' + index);
-    console.log('ws://localhost:9000/ws' + index);
-
+    console.log(socket)
+    
     socket.onopen = function(e) {
         $('#clientText').append("Verbindung hergestellt.\n");
         console.log("Verbindung hergestellt.");

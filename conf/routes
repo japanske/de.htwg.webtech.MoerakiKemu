@@ -13,4 +13,4 @@ GET     /lobby                      controllers.HomeController.lobby
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 #websocket
-GET     /ws:id                         controllers.HomeController.socket(id: Integer)
+GET     /ws:id                      controllers.HomeController.socket(id: Integer)

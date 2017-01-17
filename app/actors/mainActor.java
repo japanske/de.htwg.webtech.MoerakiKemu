@@ -21,6 +21,7 @@ public class mainActor extends UntypedActor implements UserInterface, ObserverOb
     private IController controller = null;
 
     public static Props props(ActorRef out){
+        System.out.println("props");
         return Props.create(mainActor.class, out);
     }
 

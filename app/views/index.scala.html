@@ -2,14 +2,16 @@
 
 
 @main("Moeraki-Kemu") {
+   	<script src="@routes.Assets.versioned("javascripts/websockets_client.js")"></script>
     <div id="index" class="hide">@Index</div>
 	<div class="container-fluid" >
 		<div>
 			<!-- Nav tabs -->
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Start</a></li>
-				<li role="presentation"><a href="#game" aria-controls="game" role="tab" data-toggle="tab">Game</a></li>
-				<li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Hilfe</a></li>
+				<li role="presentation" class="active"><a class="tab-color" href="#home" aria-controls="home" role="tab" data-toggle="tab">Start</a></li>
+				<li role="presentation"><a class="tab-color" href="#game" aria-controls="game" role="tab" data-toggle="tab">Game</a></li>
+				<li role="presentation"><a class="tab-color" href="#help" aria-controls="help" role="tab" data-toggle="tab">Hilfe</a></li>
+				<li ><a class="tab-color" href="http://localhost:9000/lobby">Lobby</a></li>
 			</ul>
 
 			<!-- Tab panes -->

@@ -24,7 +24,16 @@ public class HomeController extends Controller {
     }
     public Result index(int gameIndex) {
 
-        return ok(index.render(gameIndex));
+        if (gameIndex < lobbyActor.getNumberOfGames() && gameIndex >= 0) {
+            System.out.println("gameIndex < getNumbersOfGames und >= 0");
+            return ok(index.render(gameIndex));
+        } else if (gameIndex == lobbyActor.getNumberOfGames()) {
+            System.out.println("gameIndex == getNumbersOfGames");
+            lobbyActor.startGame();
+            return ok(index.render(gameIndex));
+        } else {
+            return ok(lobby.render(lobbyActor.getNumberOfGames()));
+        }
     }
     public Result gameHelp() {
 

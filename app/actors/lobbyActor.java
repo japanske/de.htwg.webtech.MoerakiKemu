@@ -31,6 +31,7 @@ public class lobbyActor {
     }
     
     public int getNumberOfGames(){
+        System.out.println("Number of Games:" + games.size());
         return games.size();
     }
 }

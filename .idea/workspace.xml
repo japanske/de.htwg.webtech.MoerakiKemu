@@ -2,31 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4482eaf9-92e4-45bd-a01e-05a64d14ec0c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/activator-60a6f005-4ff2-46da-9862-d8cdbd34b440.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-1f0be9f9-b413-4c49-87cd-c8b27103a185.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-2e11a701-3985-49f4-8802-866213c90d34.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-3f398686-568b-42a8-8895-c60b3bffd8ac.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-4a43b388-ab4c-46fd-890f-324e05ccc129.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-6c9af961-fbb9-49ee-90ee-6032d3d281d9.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-a13498f7-9b3a-40ca-848f-d6a7bbc390ea.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-b4e09d2e-af8b-419d-8278-bee4912f4c02.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-cb3e8f37-fd73-4c94-be23-db623abc640d.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-d8319332-6eb1-4bf5-980e-354b1ef81a98.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-f9c116f6-311f-4ba0-bd76-4d5c88158f43.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/activator-767279b0-ed81-4415-adf4-e9637ac9b02c.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/activator-cc01e363-0a39-42df-b146-d59a67df84d5.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-19edee4c-30e6-4301-968d-c82d4379d1d1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-6ef04264-e8b7-4b82-bbdb-4d8d3aeb6b35.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-6fb73072-6831-403e-9b1e-03c7cc441564.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sbtserver/connections/play-fork-run-9ca25707-1293-4ba5-98e5-3f526ca9482d.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/actors/websocketActor.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/connections/master.log" afterPath="$PROJECT_DIR$/.sbtserver/connections/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/master.log" afterPath="$PROJECT_DIR$/.sbtserver/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sbtserver/previous.log" afterPath="$PROJECT_DIR$/.sbtserver/previous.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/actors/lobbyActor.java" afterPath="$PROJECT_DIR$/app/actors/lobbyActor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/actors/mainActor.java" afterPath="$PROJECT_DIR$/app/actors/mainActor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.java" afterPath="$PROJECT_DIR$/app/controllers/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lobby.scala.html" afterPath="$PROJECT_DIR$/app/views/lobby.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/.sbtserver" afterPath="$PROJECT_DIR$/project/.sbtserver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/play-fork-run.sbt" afterPath="$PROJECT_DIR$/project/play-fork-run.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/sbt-ui.sbt" afterPath="$PROJECT_DIR$/project/sbt-ui.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/websockets_client.js" afterPath="$PROJECT_DIR$/public/javascripts/websockets_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="MoerakiKemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -293,7 +289,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -304,7 +301,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>

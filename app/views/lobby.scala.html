@@ -1,12 +1,17 @@
 @(numberOfGames: Integer)
 
 @main("Login"){
-        <form method="get" action="/main@numberOfGames">
-            <button type="submit">Neues Spiel starten</button>
-        </form>
+        <div class="pt5 middle" style="width: 140px">
+            <form method="get" action="/main@numberOfGames">
+                <button class="btn" type="submit">Neues Spiel starten</button>
+            </form>
+        </div>
     @for(j <- 0 until numberOfGames) {
-        <form method="get" action="/main@j">
-            <button type="submit">Spiel @j</button>
-        </form>
+        <div class="pt2 middle" style="width: 60px">
+            <form method="get" action="/main@j">
+                <button class="btn" type="submit">Spiel @j</button>
+            </form>
+        </div>
     }
+    </div>
 }
