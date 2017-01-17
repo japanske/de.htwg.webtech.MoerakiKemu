@@ -15,9 +15,9 @@ public class HomeController extends Controller {
 
     private lobbyActor lobbyActor = new lobbyActor();
     
-        public Result lobby() {
-            return ok(lobby.render(lobbyActor.getNumberOfGames()));
-        }
+    public Result lobby() {
+        return ok(lobby.render(lobbyActor.getNumberOfGames()));
+    }
     
     public Result login() {
         return ok(login.render(""));
