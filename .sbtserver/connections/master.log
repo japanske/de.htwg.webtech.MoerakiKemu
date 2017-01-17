@@ -1,70 +1,7 @@
-New log file opened at Tue Jan 17 13:25:35 CET 2017 by 4852@Besitzer-PC
-Taking next connection to: 51863
-New client attempting to connect on port: 51864-51863
-  Address = /172.20.128.164:51863
-This client on port 51864 has uuid 3357e426-6be5-48e4-aff0-be540d1866ac configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-3357e426-6be5-48e4-aff0-be540d1866ac
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-New client attempting to connect on port: 51885-51863
-  Address = /172.20.128.164:51863
-Handshake exception on socket: 51885
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.io.EOFException
-	at java.io.DataInputStream.readInt(Unknown Source)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 51863
-New client attempting to connect on port: 51886-51863
-  Address = /172.20.128.164:51863
-This client on port 51886 has uuid 100c0833-8788-469a-bbf3-8eda0700bc04 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-100c0833-8788-469a-bbf3-8eda0700bc04
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 51863
+New log file opened at Tue Jan 17 22:41:19 CET 2017 by 7316@Besitzer-PC
+Taking next connection to: 56799
+New client attempting to connect on port: 56800-56799
+  Address = /192.168.0.100:56799
+This client on port 56800 has uuid 6081603e-466f-4b2e-bc59-b854d61588dd configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-6081603e-466f-4b2e-bc59-b854d61588dd
+Taking next connection to: 56799
