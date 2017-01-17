@@ -1,7 +1,7 @@
-New log file opened at Tue Jan 17 22:45:04 CET 2017 by 7084@Besitzer-PC
-Taking next connection to: 56840
-New client attempting to connect on port: 56841-56840
-  Address = /192.168.0.100:56840
-This client on port 56841 has uuid d251f32e-acd9-42eb-bd55-842817c1a237 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-d251f32e-acd9-42eb-bd55-842817c1a237
-Taking next connection to: 56840
+New log file opened at Tue Jan 17 23:02:50 CET 2017 by 6904@Besitzer-PC
+Taking next connection to: 56994
+New client attempting to connect on port: 56995-56994
+  Address = /192.168.0.100:56994
+This client on port 56995 has uuid 20552438-7958-4eb9-bdc7-93b27d9beb76 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-20552438-7958-4eb9-bdc7-93b27d9beb76
+Taking next connection to: 56994
