@@ -68,3 +68,6 @@ New client attempting to connect on port: 56870-56865
 This client on port 56870 has uuid 449452fe-22f4-49f7-b9fb-946e05b39f0e configName activator humanReadableName Activator protocolVersion unknown featureTags Vector()
 Connected Clients: play-fork-run-c099ea04-a5d8-4912-ac35-4cc095b1c342, activator-449452fe-22f4-49f7-b9fb-946e05b39f0e
 Taking next connection to: 56865
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56865
