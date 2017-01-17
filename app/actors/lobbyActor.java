@@ -5,14 +5,15 @@ import java.util.List;
 
 import javax.inject.Singleton;
 import play.mvc.LegacyWebSocket;
+import play.mvc.WebSocket;
 
 @Singleton
 public class lobbyActor {
     
-    private List<mainActor> games;
+    private List<LegacyWebSocket<String>> games;
     
     public lobbyActor() {
-        games = new ArrayList<mainActor>();
+        games = new ArrayList<LegacyWebSocket<String>>();
     }
     
     public LegacyWebSocket<String> getSocket(int index){
@@ -20,17 +21,16 @@ public class lobbyActor {
             return null;
         }
         else {
-            return games.get(index).getWebSockets();
+            return games.get(index);
         }
     }
     
     public int startGame() {
-        games.add(new mainActor());
+        games.add(WebSocket.withActor(mainActor::props));
         return games.size() - 1;
     }
     
     public int getNumberOfGames(){
         return games.size();
     }
-    
 }

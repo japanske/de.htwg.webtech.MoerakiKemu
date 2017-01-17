@@ -1,11 +1,14 @@
-$('.field').click(function(e) {
-         socket.send('setDot' + JSON.stringify($(this).attr("id")));
+$(document).ready(function() {
+    //Listners
+    $('.field').click(function(event){
+        socket.send('setDot' + JSON.stringify$(this).attr("id"));
         return false;
-    });
+    })
     
-    
-    var Index;
-    var socket = new WebSocket('ws://localhost:9000/ws' + Index);
+    var index = $('#index').text();
+    console.log("Spieleindex:" + index);
+    var socket = new WebSocket('ws://localhost:9000/ws' + index);
+    console.log('ws://localhost:9000/ws' + index);
 
     socket.onopen = function(e) {
         $('#clientText').append("Verbindung hergestellt.\n");
@@ -58,4 +61,5 @@ $('.field').click(function(e) {
         $('#player1Counter').text(player1Points);
         $('#player2Counter').text(player2Points);
         $('#clientText').append(lastMove+"\n");
-    }
+    };
+});
