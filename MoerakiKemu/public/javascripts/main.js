@@ -21,5 +21,4 @@ $(document).ready(function (e) {
     function onSignIn(googleUser) {
         window.location = "/main";
     }
-
 });

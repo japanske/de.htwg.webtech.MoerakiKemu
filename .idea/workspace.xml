@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af86bd0-a3b4-44ff-abf9-66b2d25a14c0" name="Default" comment="added lobby-class">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/connections/activator-373f7533-8cb4-441c-89c3-50979fbe60f4.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/connections/activator-5cd06120-4691-4b69-8187-0ac80133106b.log" />
+    <list default="true" id="4af86bd0-a3b4-44ff-abf9-66b2d25a14c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/connections/master.log" afterPath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/connections/master.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/master.log" afterPath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/master.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/app/actors/mainActor.java" afterPath="$PROJECT_DIR$/MoerakiKemu/app/actors/mainActor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/app/actors/websocketActor.java" afterPath="$PROJECT_DIR$/MoerakiKemu/app/actors/websocketActor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/previous.log" afterPath="$PROJECT_DIR$/MoerakiKemu/.sbtserver/previous.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/app/views/index.scala.html" afterPath="$PROJECT_DIR$/MoerakiKemu/app/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/app/views/lobby.scala.html" afterPath="$PROJECT_DIR$/MoerakiKemu/app/views/lobby.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/app/views/main.scala.html" afterPath="$PROJECT_DIR$/MoerakiKemu/app/views/main.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/project/.sbtserver" afterPath="$PROJECT_DIR$/MoerakiKemu/project/.sbtserver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js" afterPath="$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoerakiKemu/public/javascripts/websockets_client.js" afterPath="$PROJECT_DIR$/MoerakiKemu/public/javascripts/websockets_client.js" />
     </list>
     <ignored path="MoerakiKemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +35,8 @@
       <file leaf-file-name="index.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+            <state relative-caret-position="170">
+              <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -44,29 +46,22 @@
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
-                <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+                <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+                <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+                <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+                <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="websockets_client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/websockets_client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -75,7 +70,7 @@
       <file leaf-file-name="routes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/conf/routes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="255">
               <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding />
             </state>
@@ -85,8 +80,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="191" column="17" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
+            <state relative-caret-position="4233">
+              <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -95,20 +90,18 @@
       <file leaf-file-name="help.scala.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/help.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding>
-                <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainActor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainActor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/actors/mainActor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,7 +110,7 @@
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="374">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
@@ -151,7 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/MoerakiKemu/build.sbt" />
         <option value="$PROJECT_DIR$/MoerakiKemu/public/javascripts/hello.js" />
-        <option value="$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/MoerakiKemu/app/views/help.scala.html" />
         <option value="$PROJECT_DIR$/MoerakiKemu/app/actor/mainActor.java" />
         <option value="$PROJECT_DIR$/MoerakiKemu/app/controllers/HomeController.java" />
@@ -162,6 +154,7 @@
         <option value="$PROJECT_DIR$/MoerakiKemu/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/MoerakiKemu/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/MoerakiKemu/app/actors/mainActor.java" />
+        <option value="$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js" />
       </list>
     </option>
   </component>
@@ -196,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,10 +240,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -261,6 +252,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,8 +358,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -958,7 +951,21 @@
       <option name="project" value="LOCAL" />
       <updated>1484637433461</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="changed routing">
+      <created>1484646265153</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1484646265153</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Merge remote-tracking branch 'remotes/origin/Polymer' into lobby&#10;&#10;# Conflicts:&#10;#&#9;.project&#10;#&#9;MoerakiKemu/.sbtserver/connections/master.log&#10;#&#9;MoerakiKemu/.sbtserver/master.log&#10;#&#9;MoerakiKemu/.sbtserver/previous.log&#10;#&#9;MoerakiKemu/project/.sbtserver&#10;">
+      <created>1484652897469</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1484652897469</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -967,7 +974,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
@@ -984,6 +990,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1004,8 +1011,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="added .jar-File" />
-    <MESSAGE value="added playfield" />
     <MESSAGE value="changed css for the field" />
     <MESSAGE value="Created playfield" />
     <MESSAGE value="websocket update" />
@@ -1029,7 +1034,9 @@
     <MESSAGE value="Merged Polymer-Branch into Master" />
     <MESSAGE value="Created new Branch" />
     <MESSAGE value="added lobby-class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lobby-class" />
+    <MESSAGE value="changed routing" />
+    <MESSAGE value="Merge remote-tracking branch 'remotes/origin/Polymer' into lobby&#10;&#10;# Conflicts:&#10;#&#9;.project&#10;#&#9;MoerakiKemu/.sbtserver/connections/master.log&#10;#&#9;MoerakiKemu/.sbtserver/master.log&#10;#&#9;MoerakiKemu/.sbtserver/previous.log&#10;#&#9;MoerakiKemu/project/.sbtserver&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'remotes/origin/Polymer' into lobby&#10;&#10;# Conflicts:&#10;#&#9;.project&#10;#&#9;MoerakiKemu/.sbtserver/connections/master.log&#10;#&#9;MoerakiKemu/.sbtserver/master.log&#10;#&#9;MoerakiKemu/.sbtserver/previous.log&#10;#&#9;MoerakiKemu/project/.sbtserver&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1058,7 +1065,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1083,9 +1093,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +1115,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1132,9 +1143,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1165,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1181,9 +1193,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1207,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1222,9 +1235,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,7 +1249,10 @@
         <state relative-caret-position="136">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1263,9 +1277,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +1286,10 @@
         <state relative-caret-position="102">
           <caret line="6" column="85" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="85" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1299,9 +1314,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1323,10 @@
         <state relative-caret-position="102">
           <caret line="6" column="85" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="85" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1347,18 +1363,16 @@
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/controllers/AsyncController.java" />
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/help.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <marker date="1484591024645" expanded="true" signature="948:3194" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/actor/mainActor.java" />
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="374">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
@@ -1366,16 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="255">
           <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/websockets_client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1383,9 +1389,12 @@
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
-            <marker date="1484595298352" expanded="true" signature="193:1532" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="54:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="69:153" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="164:2031" ph="..." />
+            <marker date="1484647880880" expanded="true" signature="193:2031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1399,34 +1408,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+        <state relative-caret-position="170">
+          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="191" column="17" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
+        <state relative-caret-position="4233">
+          <caret line="249" column="17" selection-start-line="249" selection-start-column="17" selection-end-line="249" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MoerakiKemu/app/actors/mainActor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/websockets_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MoerakiKemu/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>

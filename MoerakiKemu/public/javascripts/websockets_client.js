@@ -1,13 +1,11 @@
-$(document).ready(function() {
-    $('.field').click(function(e) {
+$('.field').click(function(e) {
          socket.send('setDot' + JSON.stringify($(this).attr("id")));
         return false;
     });
-});
-
-$(document).ready(function) {
-        var gameIndex;
-        var socket = new WebSocket("ws://localhost:9000/ws"+gameIndex);
+    
+    
+    var Index;
+    var socket = new WebSocket('ws://localhost:9000/ws' + Index);
 
     socket.onopen = function(e) {
         $('#clientText').append("Verbindung hergestellt.\n");
@@ -61,4 +59,3 @@ $(document).ready(function) {
         $('#player2Counter').text(player2Points);
         $('#clientText').append(lastMove+"\n");
     }
-}
