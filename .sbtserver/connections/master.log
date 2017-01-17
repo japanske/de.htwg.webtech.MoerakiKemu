@@ -1,0 +1,7 @@
+New log file opened at Tue Jan 17 12:46:44 CET 2017 by 4056@Besitzer-PC
+Taking next connection to: 55169
+New client attempting to connect on port: 55170-55169
+  Address = /172.20.128.164:55169
+This client on port 55170 has uuid 42cc71e2-9345-478b-b431-95ae9334f631 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-42cc71e2-9345-478b-b431-95ae9334f631
+Taking next connection to: 55169
