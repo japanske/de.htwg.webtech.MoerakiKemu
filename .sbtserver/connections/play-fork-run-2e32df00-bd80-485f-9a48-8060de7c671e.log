@@ -65,3 +65,22 @@ Sending msg to client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e: Detach
 Sending msg to client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e: DetachedLogEvent(LogMessage(debug,> server-send-ready-for-request))
 Sending msg to client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e: BuildLoaded()
 Sending msg to client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e: (4,ReceivedResponse())
+Got request: ListenToValue(AttributeKey[play.forkrun.protocol.ForkConfig]("playForkConfig") in Scope(Build: file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/, , Project: ProjectReference(file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/,root)))
+Reading next message from client.
+Got request: UnlistenToValue(AttributeKey[play.forkrun.protocol.ForkConfig]("playForkConfig") in Scope(Build: file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/, , Project: ProjectReference(file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/,root)))
+Reading next message from client.
+Got request: ListenToValue(AttributeKey[play.runsupport.Reloader$CompileResult]("playForkReload") in Scope(Build: file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/, , Project: ProjectReference(file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/,root)))
+Reading next message from client.
+Got request: UnlistenToValue(AttributeKey[play.runsupport.Reloader$CompileResult]("playForkReload") in Scope(Build: file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/, , Project: ProjectReference(file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/,root)))
+Reading next message from client.
+Client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e EOF, shutting down.
+Stopping client.
+Client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e thread exiting.
+Dropping message (5,ReceivedResponse()) to dead client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e
+Dropping message (6,ReceivedResponse()) to dead client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e
+Dropping message (7,ReceivedResponse()) to dead client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e
+Dropping message (8,ReceivedResponse()) to dead client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-2e32df00-bd80-485f-9a48-8060de7c671e
