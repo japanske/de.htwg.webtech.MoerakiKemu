@@ -1,0 +1,26 @@
+New log file opened at Wed Jan 18 11:14:33 CET 2017 by 2808@DESKTOP-5PRVS2V
+Taking next connection to: 56119
+New client attempting to connect on port: 56120-56119
+  Address = /172.20.161.194:56119
+Handshake exception on socket: 56120
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 56119
+New client attempting to connect on port: 56121-56119
+  Address = /172.20.161.194:56119
+This client on port 56121 has uuid 5b69f27f-3c7a-4772-a2e6-0c70d5e86fa7 configName activator humanReadableName Activator protocolVersion unknown featureTags Vector()
+Connected Clients: activator-5b69f27f-3c7a-4772-a2e6-0c70d5e86fa7
+Taking next connection to: 56119
