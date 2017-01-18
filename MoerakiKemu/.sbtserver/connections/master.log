@@ -24,3 +24,6 @@ New client attempting to connect on port: 56121-56119
 This client on port 56121 has uuid 5b69f27f-3c7a-4772-a2e6-0c70d5e86fa7 configName activator humanReadableName Activator protocolVersion unknown featureTags Vector()
 Connected Clients: activator-5b69f27f-3c7a-4772-a2e6-0c70d5e86fa7
 Taking next connection to: 56119
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 56119
