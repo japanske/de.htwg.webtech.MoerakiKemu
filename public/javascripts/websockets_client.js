@@ -36,9 +36,6 @@ $(document).ready(function() {
         
         console.log(json);
         
-        console.log(player1Points);
-        console.log(player2Points);
-        
         for(i = 0; i < lines.length; i++){
             var line = lines[i];
             var cells = line.cells;
