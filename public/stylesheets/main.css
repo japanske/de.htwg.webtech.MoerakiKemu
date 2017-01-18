@@ -1,4 +1,4 @@
-aw.no-top-distance {
+.no-top-distance {
     margin-top: 0px;
     padding-top: 0px;
 }
@@ -253,4 +253,8 @@ h4 {
 a {
    color: #9932CC;
    text-transform: uppercase;
+}
+
+.tab-color {
+    color: #FFFFFF;
 }

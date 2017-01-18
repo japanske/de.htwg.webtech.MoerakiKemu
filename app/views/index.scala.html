@@ -1,15 +1,17 @@
-@(message: String)
+@(Index: Integer)
 
 
 @main("Moeraki-Kemu") {
-    <script src="@routes.Assets.versioned("javascripts/websockets_client.js")"></script>
+   	<script src="@routes.Assets.versioned("javascripts/websockets_client.js")"></script>
+    <div id="index" class="hide">@Index</div>
 	<div class="container-fluid" >
 		<div>
 			<!-- Nav tabs -->
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Start</a></li>
-				<li role="presentation"><a href="#game" aria-controls="game" role="tab" data-toggle="tab">Game</a></li>
-				<li role="presentation"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Hilfe</a></li>
+				<li role="presentation" class="active"><a class="tab-color" href="#home" aria-controls="home" role="tab" data-toggle="tab">Start</a></li>
+				<li role="presentation"><a class="tab-color" href="#game" aria-controls="game" role="tab" data-toggle="tab">Game</a></li>
+				<li role="presentation"><a class="tab-color" href="#help" aria-controls="help" role="tab" data-toggle="tab">Hilfe</a></li>
+				<li ><a class="tab-color" href="http://localhost:9000/lobby">Lobby</a></li>
 			</ul>
 
 			<!-- Tab panes -->
@@ -20,8 +22,8 @@
 				<div role="tabpanel" class="tab-pane" id="game">
 				    <div class="container mt5 index">
 				        <div class="col-md-3">
-		            		<p>Punkte <span id="player1Name">Player 1</span>: <textarea class="pl5 form-control" rows="1" id="player1Counter"></textarea></p>
-        			    	<p>Punkte <span id="player2Name">Player 2</span>: <textarea class="pl5 form-control" rows="1" id="player2Counter"></textarea></p>
+		            		<p>Punkte <span id="player1Name">Player 1</span>: <textarea class="pl5 form-control" rows="1" id="player1Counter" readonly></textarea></p>
+        			    	<p>Punkte <span id="player2Name">Player 2</span>: <textarea class="pl5 form-control" rows="1" id="player2Counter" readonly></textarea></p>
 				        </div>
     				        <div class="col-md-6 fieldplane center-block">
 	    				        <div class="fieldrow">
@@ -106,7 +108,7 @@
 								</div>
 							</div>  		
         				<div class="col-md-3">
-        			        <textarea class="pl5 form-control" rows="22" id="clientText"></textarea>
+        			        <textarea class="pl5 form-control" rows="22" id="clientText" readonly></textarea>
         			    </div>
         			</div>
 				</div>
