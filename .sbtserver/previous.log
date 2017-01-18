@@ -1,5 +1,5 @@
-New log file opened at Wed Jan 18 10:44:19 CET 2017 by 10068@Besitzer-PC
-jvm 10068@Besitzer-PC
+New log file opened at Wed Jan 18 11:37:24 CET 2017 by 9968@Besitzer-PC
+jvm 9968@Besitzer-PC
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.101-b13
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in C:\Users\Besitzer\IdeaProjects\moerakikemu\project, returning: (moerakikemu-build)
 Loading project definition from C:\Users\Besitzer\IdeaProjects\moerakikemu\project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@3626e6de, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@4715a316, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,40 +69,14 @@ Set current project to MoerakiKemu (in build file:/C:/Users/Besitzer/IdeaProject
 > server-handle-next-server-request
 > {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@76ae1fd9, check cycles: false
-Total time: 2 s, completed 18.01.2017 10:44:45
+Running task... Cancel: sbt.server.ServerTaskCancellation@4c72fe61, check cycles: false
+Total time: 1 s, completed 18.01.2017 11:37:51
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5a79584b, check cycles: false
-Total time: 0 s, completed 18.01.2017 10:44:51
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@53d5ba4d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\application.conf,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\application.conf)
-	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\logback.xml,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\logback.xml)
-	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\routes,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\routes)
-Total time: 11 s, completed 18.01.2017 10:45:17
+Running task... Cancel: sbt.server.ServerTaskCancellation@15072087, check cycles: false
+Total time: 0 s, completed 18.01.2017 11:37:59
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -111,4 +85,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 10068@Besitzer-PC logs at Wed Jan 18 10:47:27 CET 2017, goodbye.
+Closing the 9968@Besitzer-PC logs at Wed Jan 18 11:40:38 CET 2017, goodbye.

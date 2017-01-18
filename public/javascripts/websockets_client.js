@@ -7,7 +7,7 @@ $(document).ready(function() {
     })
     
     var index = $('#index').text();
-    var socket = new WebSocket('ws://localhost:9000/ws' + index);
+    var socket = new WebSocket('wss://moerakikemu.herokuapp.com/ws' + index);
     console.log(socket)
     
     socket.onopen = function(e) {
