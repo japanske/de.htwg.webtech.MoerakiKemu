@@ -8,6 +8,7 @@ $(document).ready(function() {
     
     var index = $('#index').text();
     var socket = new WebSocket('ws://localhost:9000/ws'+index);
+    console.log("socket start");
     
     socket.onopen = function(e) {
         $('#clientText').append("Verbindung hergestellt.\n");
