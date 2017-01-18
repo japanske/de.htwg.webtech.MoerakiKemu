@@ -27,6 +27,7 @@ $(document).ready(function() {
     
     socket.onmessage = function(e) {
         var json = JSON.parse(e.data);
+        console.log(json);
         var lines = json.lines;
         var player1 = json.player1;
         var player2 = json.player2;
