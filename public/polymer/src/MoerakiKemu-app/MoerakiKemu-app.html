@@ -1,5 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../../bower_components/google-signin/google-signin.html">
 
 <dom-module id="MoerakiKemu-app">
   <template>
@@ -121,24 +122,25 @@
 
 </dom-module>
 
-<dom-module id="game-page">
+<dom-module id="sign-page">
   <template>
     <style>
       :host {
         display: block;
       }
     </style>
-  </template>
+    <google-signin label-signin="Sign-in" client-id="252965877720-201gufru07r6bj52n668hl0n1eds13dk.apps.googleusercontent.com" scopes="https://www.googleapis.com/auth/drive"></google-signin>"
+     </template>
 
   <script>
     Polymer({
 
-      is: 'game-page',
+      is: 'sign-page',
 
       properties: {
         prop1: {
           type: String,
-          value: 'game-page',
+          value: 'sign-page',
         },
       },
 
