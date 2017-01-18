@@ -65,3 +65,7 @@ Sending msg to client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0: Detach
 Sending msg to client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0: DetachedLogEvent(LogMessage(debug,> server-send-ready-for-request))
 Sending msg to client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0: BuildLoaded()
 Sending msg to client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0: DetachedLogEvent(LogMessage(debug,> server-handle-next-server-request))
+Client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0
+Client play-fork-run-3f424032-aecc-4d55-bd09-0c0dcf5d3dd0 thread exiting.
