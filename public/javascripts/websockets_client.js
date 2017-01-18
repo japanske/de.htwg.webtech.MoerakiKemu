@@ -2,11 +2,12 @@ $(document).ready(function() {
     //Listners
     $('.field').click(function(event){
         socket.send('setDot' + JSON.stringify($(this).attr("id")));
+        console.log("socket.send()");
         return false;
     })
     
     var index = $('#index').text();
-    var socket = new WebSocket('wss://hidden-refuge-84126.herokuapp.com/ws' + index);
+    var socket = new WebSocket('ws://localhost:9000/ws' + index);
     console.log(socket)
     
     socket.onopen = function(e) {
