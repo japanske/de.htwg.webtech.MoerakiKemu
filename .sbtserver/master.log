@@ -1060,3 +1060,75 @@ Copy resource mappings:
 Total time: 7 s, completed 18.01.2017 01:03:12
 > server-post-command-cleanup
 > server-handle-next-server-request
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@75b781a1, check cycles: false
+Total time: 0 s, completed 18.01.2017 01:18:56
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@7ce1ec95, check cycles: false
+Total time: 1 s, completed 18.01.2017 01:19:04
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@3f7b0e7f, check cycles: false
+Total time: 0 s, completed 18.01.2017 01:19:10
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@4dd710c6, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\application.conf,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\application.conf)
+	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\logback.xml,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\logback.xml)
+	(C:\Users\Besitzer\IdeaProjects\moerakikemu\conf\routes,C:\Users\Besitzer\IdeaProjects\moerakikemu\target\scala-2.11\classes\routes)
+Total time: 6 s, completed 18.01.2017 01:19:30
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d7c8e90, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed 18.01.2017 08:51:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Besitzer/IdeaProjects/moerakikemu/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@7177bb1c, check cycles: false
+Total time: 0 s, completed 18.01.2017 08:51:14
+> server-post-command-cleanup
+> server-handle-next-server-request
