@@ -1,7 +1,13 @@
-New log file opened at Wed Jan 18 13:53:31 CET 2017 by 5560@Besitzer-PC
-Taking next connection to: 53742
-New client attempting to connect on port: 53743-53742
-  Address = /172.20.138.138:53742
-This client on port 53743 has uuid 36a9aff2-a9ea-461c-989a-665849d64576 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-36a9aff2-a9ea-461c-989a-665849d64576
-Taking next connection to: 53742
+New log file opened at Tue Jan 24 13:01:02 CET 2017 by 10492@Besitzer-PC
+Taking next connection to: 63331
+New client attempting to connect on port: 63332-63331
+  Address = /172.20.144.183:63331
+This client on port 63332 has uuid 8c0fd464-dac0-4491-8dad-65f729b74f7f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-8c0fd464-dac0-4491-8dad-65f729b74f7f
+Taking next connection to: 63331
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 10492@Besitzer-PC logs at Tue Jan 24 13:04:04 CET 2017, goodbye.
